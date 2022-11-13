@@ -1,0 +1,22 @@
+body {
+    background-color: #333333;
+}
+
+.nav-cv {
+    background-color: var(--main-color);
+    color: white;
+    padding: 8px 0;
+}
+
+.opacity-hover-50-100 {
+    opacity: 0.5;
+}
+
+.opacity-hover-50-100:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.blog{
+    padding-top: 80px;
+}
