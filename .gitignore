@@ -1,0 +1,27 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+/modules.xml
+*.iml
+/.idea/
+/.project
+/project/target
+/data
+/.settings/
+/bootstrap.sh*
+/logs/
+/pg_data/
+/diagram.???
+/kafka.environment
+/webserver.environment
+/docker-compose.override.yml
+/mongodumps
+/secrets
+/.vscode
+/.env
+/.env.bkp
