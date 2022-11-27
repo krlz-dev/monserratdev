@@ -1,102 +1,81 @@
 <!doctype html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport"
-       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>Document</title>
- <link rel="stylesheet" href="css/monokai.min.css">
- <link rel="stylesheet" href="css/fonts.css">
- <link rel="stylesheet" href="css/colors.css">
- <link rel="stylesheet" href="css/bootstrap.min.css">
- <link rel="stylesheet" href="css/global-styles.css">
- <script src="js/highlight.min.js"></script>
- <script>hljs.highlightAll();</script>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/monokai.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/global-styles.css">
+    <script src="js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </head>
 <body>
 <div class="container text-decoration-none text-center py-2">
- <a class="text-white text-decoration-none opacity-hover-50-100" href="#language=ENGLISH">ENGLISH</a>
- <span class="text-white opacity-25">/</span>
- <a class="text-white text-decoration-none opacity-hover-50-100" href="#language=SPANISH">ESPAÑOL</a>
+    <a class="text-white text-decoration-none opacity-hover-50-100" href="#language=ENGLISH">ENGLISH</a>
+    <span class="text-white opacity-25">/</span>
+    <a class="text-white text-decoration-none opacity-hover-50-100" href="#language=SPANISH">ESPAÑOL</a>
 </div>
 <div class="nav-cv">
- <div class="container  navbar-nav text-center" id="cv"></div>
+    <div class="container  navbar-nav text-center" id="cv"></div>
 </div>
 <div class="container pt-5 text-white">
- <div class="row" style="display: flex; align-items: center;justify-content: center">
-  <div class="col-md-2 text-center mb-4">
-   <img  src="img/me.png" alt="" width="100%" style="border-radius: 1000px; max-width: 150px">
-  </div>
-  <div class="col-md-9">
-   <div id="aboutMe"></div>
-  </div>
-  <div class="col-1">
-   <button data-bs-toggle="collapse"
-           data-bs-target="#aboutMeDetail"
-           class="btn btn-link text-decoration-none text-white">
-    <svg style="min-width: 40px" viewBox="0 0 200 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-     <style>
-       #arrow-more {
-         animation: blink 1s alternate infinite;
-       }
+    <div class="row" style="display: flex; align-items: center;justify-content: center">
+        <div class="col-md-2 text-center mb-4">
+            <img src="img/me.png" alt="" width="100%" style="border-radius: 1000px; max-width: 150px">
+        </div>
+        <div class="col-md-9">
+            <div id="aboutMe"></div>
+        </div>
+        <div class="col-1">
+            <button data-bs-toggle="collapse"
+                    data-bs-target="#aboutMeDetail"
+                    class="btn btn-link text-decoration-none text-white">
+                <svg style="min-width: 40px" viewBox="0 0 200 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <style>
+                        #arrow-more {
+                            animation: blink 1s alternate infinite;
+                        }
 
-       @keyframes blink {
-         from {
-           fill: white;
-         }
-         to {
-           fill: var(--main-color);
-         }
-       }
-     </style>
-     <path id="arrow-more" d="M199.404 28.284L171.12 0L99.702 71.418L28.284 0L0 28.284L99.702 127.986L199.404 28.284Z"
-           fill="white"/>
-    </svg>
-   </button>
-  </div>
- </div>
- <div class="row mt-4">
-  <div class="col-12">
-   <div id="aboutMeDetail" class="collapse"></div>
-  </div>
- </div>
+                        @keyframes blink {
+                            from {
+                                fill: white;
+                            }
+                            to {
+                                fill: var(--main-color);
+                            }
+                        }
+                    </style>
+                    <path id="arrow-more"
+                          d="M199.404 28.284L171.12 0L99.702 71.418L28.284 0L0 28.284L99.702 127.986L199.404 28.284Z"
+                          fill="white"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-12">
+            <div id="aboutMeDetail" class="collapse"></div>
+        </div>
+    </div>
 </div>
 
 <hr class="border-white">
-<div class="container text-white blog">
- <h3>Blog</h3>
-</div>
-
-<div class="container text-white blog-article">
- <article>
-  <h4>About Scala</h4>
-  <small>10/10/2022</small>
-  <p>Cuando inicie con Scala, no tenia mucha experiencia con ningun tipo de lenguaje funcional asi que tuve que
-   cambiar mi manera de pensar en cuanto
-   a lo que sabia de programacion</p>
-  <pre>
-            <code class="hljs language-scala">
-           val AkkaVersion = "2.7.0"
-           val AkkaHttpVersion = "10.4.0"
-           libraryDependencies ++= Seq(
-           "com.typesafe.akka" %% "akka-actor-typed" % AkkaVersion,
-           "com.typesafe.akka" %% "akka-stream" % AkkaVersion,
-           "com.typesafe.akka" %% "akka-http" % AkkaHttpVersion
-
-       </code>
-   </pre>
-  <p>Lo primero que pudo llamar mi atencion fueron los
-   metodos usados para poder processar colecciones atraves de mapeos muy flexibles.</p>
-  <p>Al cabo de un tiempo terminos como </p>
-
- </article>
-
+<div class="container text-white py-4 text-center">
+    <h2 class="mb-3">Blog</h2>
+    <div id="articles-content" class="text-left">
+    </div>
+    <button id="more" class="btn btn-secondary">More</button>
 </div>
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/hash-values.js"></script>
 <script src="js/content-localization.js"></script>
 <script src="js/content.js"></script>
+<script src="js/articles-api.js"></script>
 </body>
 </html>

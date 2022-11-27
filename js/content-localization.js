@@ -6,13 +6,13 @@ const englishContentLocalization = {
        I currently work in the development of web applications and services, 
        I worked on my first project in the days of visual studio with web forms and visual basic 
        (econstitucional.com, which unfortunately is not online now) and later I spent a lot of time developing applications with MVC 
-       architecture in PHP and JAVA. I describe these projects in more detail in this <a href="#">link</a>.</p>
+       architecture in PHP and JAVA. I describe these projects in more detail in this <a href="#" class="link-light text-decoration-none">link</a>.</p>
     `,
   aboutMeDetail:`
        <p>
         I am currently working on making microservices with the Scala programming language for data processing in telemedicine services,
        this work is divided into different services that facilitate the processing and communication of a high traffic of information making 
-       use of architectures and patterns commonly associated with BIG DATA, in detail here in this <a href="#">link</a>.
+       use of architectures and patterns commonly associated with BIG DATA, in detail here in this <a href="#" class="link-light text-decoration-none">link</a>.
      </p>
   `
 }

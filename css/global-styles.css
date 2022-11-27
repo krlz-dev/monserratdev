@@ -17,6 +17,14 @@ body {
     transition: 0.5s;
 }
 
-.blog{
-    padding-top: 80px;
+a{
+    opacity: .7;
+    transition:  .5s;
+}
+a:hover{
+    opacity: 1;
+}
+
+.text-left{
+    text-align: left;
 }
