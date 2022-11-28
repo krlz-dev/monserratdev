@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Tagesschrift';
-    src: url('../fonts/consolas/Consolas.ttf');
+  font-family: 'Tagesschrift';
+  src: url('../fonts/consolas/Consolas.ttf');
 }
 
 * {
-    font-family: 'Consolas', sans-serif;
+  font-family: 'Consolas', sans-serif;
 }
