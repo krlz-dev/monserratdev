@@ -2,11 +2,8 @@ const englishContentLocalization = {
   cv: `<a class="btn btn-link text-white text-decoration-none" href="cv/carlos-rojas-cv-en.doc" id="cvLink">Download CV</a>`,
   aboutMe: `
     <p>
-       Hi, welcome!, I'm <b>Carlos</b>, developer and master in software engineering, 
-       I currently work in the development of web applications and services, 
-       I worked on my first project in the days of visual studio with web forms and visual basic 
-       (econstitucional.com, which unfortunately is not online now) and later I spent a lot of time developing applications with MVC 
-       architecture in PHP and JAVA. I describe these projects in more detail in this <a href="#" class="link-light text-decoration-none">link</a>.</p>
+       Hi, welcome!, I'm <b>Carlos Monserrat</b>, developer and master in software engineering, 
+       I work in web applications and services, please feel free to contact me or comment in any of the content below.
     `,
   aboutMeDetail:`
        <p>
