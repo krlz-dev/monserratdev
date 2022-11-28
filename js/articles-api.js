@@ -19,7 +19,6 @@ const fetchDataPage = (page) => {
     .then(articles =>
       articles.json()
         .then(articles => {
-            localStorage.setItem("page-" + page, articles.length)
             articles.map(article => {
                 const publishDate = formatDate(new Date(article.published_at))
 
@@ -60,7 +59,6 @@ const fetchDataPage = (page) => {
 let currentPage = 0
 fetchDataPage(currentPage)
 moreButton.onclick = () => {
-  console.log(localStorage.getItem(0))
   currentPage += 1
   fetchDataPage(currentPage)
 }
