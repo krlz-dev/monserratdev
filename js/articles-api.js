@@ -13,7 +13,7 @@ const setLinkStyles = (element) => {
 const moreButton = document.getElementById('more')
 
 const fetchDataPage = (page) => {
-  const baseUrl = `https://dev.to/api/articles?per_page=30&page=${page}&sort_by=published_at&username=necatiozmen`
+  const baseUrl = `https://dev.to/api/articles?per_page=30&page=${page}&sort_by=published_at&username=valravnx`
 //TODO add pagination using storage session
   fetch(baseUrl)
     .then(articles =>
