@@ -1,8 +1,8 @@
 const englishContentLocalization = {
-  cv: `<a class="btn btn-link text-white text-decoration-none" href="cv/carlos-rojas-cv-en.doc" id="cvLink">Download CV</a>`,
+  cv: `<a class="btn btn-link text-white text-decoration-none" href="cv/carlos-rojas-cv-en.docx" id="cvLink">Download CV</a>`,
   aboutMe: `
     <p>
-       Hi, welcome!, I'm <b>Carlos Monserrat</b>, developer and master in software engineering, 
+       Hi, welcome!, I'm <b>Carlos Andres Monserrat</b>, developer and master in software engineering, 
        I work in web applications and services, please feel free to contact me or comment in any of the content below.
     `,
   aboutMeDetail:`

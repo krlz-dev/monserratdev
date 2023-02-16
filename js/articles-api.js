@@ -56,7 +56,7 @@ const fetchDataPage = (page) => {
     )
 }
 
-let currentPage = 0
+let currentPage = 1
 fetchDataPage(currentPage)
 moreButton.onclick = () => {
   currentPage += 1
