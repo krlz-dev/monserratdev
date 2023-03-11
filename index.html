@@ -1,81 +1,78 @@
 <!doctype html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport"
-       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>Carlos Monserrat</title>
- <link rel="icon" type="image/x-icon" href="logo.ico">
- <link rel="stylesheet" href="css/fonts.css">
- <link rel="stylesheet" href="css/colors.css">
- <link rel="stylesheet" href="css/bootstrap.min.css">
- <link rel="stylesheet" href="css/global-styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carlos Monserrat</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/global-styles.css">
 </head>
 <body>
 <div class="container text-decoration-none text-center py-2">
-<!-- <a class="text-white text-decoration-none opacity-hover-50-100" href="#language=ENGLISH">ENGLISH</a>-->
-<!-- <span class="text-white opacity-25">/</span>-->
-<!-- <a class="text-white text-decoration-none opacity-hover-50-100" href="#language=SPANISH">ESPAÑOL</a>-->
- 01000011 01000001 01010010 01001100 01001111 01010011 00100000 01000001 01001110 01000100 01010010 01000101 01010011 00100000 01001101 01001111 01001110 01010011 01000101 01010010 01010010 01000001 01010100 00100000 01010010 01001111 01001010 01000001 01010011 00100000 01010010 01001111 01001010 01000001 01010011
+    <!-- <a class="text-white text-decoration-none opacity-hover-50-100" href="#language=ENGLISH">ENGLISH</a>-->
+    <!-- <span class="text-white opacity-25">/</span>-->
+    <!-- <a class="text-white text-decoration-none opacity-hover-50-100" href="#language=SPANISH">ESPAÑOL</a>-->
+    01000011 01000001 01010010 01001100 01001111 01010011 00100000 01000001 01001110 01000100 01010010 01000101 01010011
+    00100000 01001101 01001111 01001110 01010011 01000101 01010010 01010010 01000001 01010100 00100000 01010010 01001111
+    01001010 01000001 01010011 00100000 01010010 01001111 01001010 01000001 01010011
 </div>
 <div class="nav-cv">
- <div class="container navbar-nav text-center" id="cv"></div>
+    <div class="container navbar-nav text-center" id="cv">
+        <a class="btn btn-link text-white text-decoration-none" href="cv/cv-en.pdf" id="cvLink" target="_blank">Download
+            CV</a>
+    </div>
 </div>
 <div class="container pt-5 text-white">
- <div class="row" style="display: flex; align-items: center;justify-content: center">
-  <div id="my-picture" class="col-md-2 text-center mb-4">
-  </div>
-  <div class="col-md-9">
-   <div id="aboutMe"></div>
-  </div>
-  <div class="col-1">
-   <button data-bs-toggle="collapse"
-           data-bs-target="#aboutMeDetail"
-           class="btn btn-link text-decoration-none text-white">
-    <svg style="min-width: 40px" viewBox="0 0 200 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-     <style>
-       #arrow-more {
-         animation: blink 1s alternate infinite;
-       }
+    <div class="row" style="display: flex; align-items: center;justify-content: center">
+        <div id="my-picture" class="col-md-2 text-center mb-4">
+        </div>
+        <div class="col-md-9">
+            <div id="aboutMe">
 
-       @keyframes blink {
-         from {
-           fill: white;
-         }
-         to {
-           fill: var(--main-color);
-         }
-       }
-     </style>
-     <path id="arrow-more"
-           d="M199.404 28.284L171.12 0L99.702 71.418L28.284 0L0 28.284L99.702 127.986L199.404 28.284Z"
-           fill="white"/>
-    </svg>
-   </button>
-  </div>
- </div>
- <div class="row mt-4">
-  <div class="col-12">
-   <div id="aboutMeDetail" class="collapse"></div>
-  </div>
- </div>
+                <p>Hello there! in the last decade I've managed to become a whiz who knows about microservices, object
+                    oriented programming and functional
+                    programming. Honestly, I still have no idea how it happened.
+                </p>
+                <p> When I'm not busy breaking my head over code, I'm a bit of a dreamer - really just someone who likes
+                    to let their imagination run wild. The world is full of wonders and magic, and I like to slip away
+                    into those mystical spaces from time to time. Who needs drugs when you've got the power of your own
+                    imagination, right?
+                </p>
+                <p> Anyway, I'm just a curious person who's always looking to learn more and take on new challenges.
+                    Sure, I might not have all the answers, but I'm willing to try and figure things out. Plus, I've got
+                    some serious grit and determination - I'm not afraid to take on the unknown and explore uncharted
+                    territory.</p>
+                <p>Hope you enjoy some of the content in this place.</p>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="row mt-4">
+        <div class="col-12">
+            <div id="aboutMeDetail" class="collapse"></div>
+        </div>
+    </div>
 </div>
 
 <hr class="border-white">
 <div class="container text-white py-4 text-center">
- <h2 class="mb-3">Blog</h2>
- <div id="articles-content" class="text-left">
- </div>
- <br>
- <button id="more" class="btn btn-secondary">More</button>
+    <h2 class="mb-3">Blog</h2>
+    <div id="articles-content" class="text-left">
+    </div>
+    <br>
+    <button id="more" class="btn btn-secondary">More</button>
 </div>
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/hash-values.js"></script>
 <script src="js/my-picture.js"></script>
-<script src="js/content-localization.js"></script>
-<script src="js/content.js"></script>
+
 <script src="js/articles-api.js"></script>
 </body>
 </html>
